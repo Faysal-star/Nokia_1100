@@ -27,5 +27,5 @@ This repository is for the 2<sup>nd</sup> year 1<sup>st</sup> term OOP Project.
 <img src="./img/guess.png" alt = "Guess" style="height:400px"/>
 </p>
 <p align="center">
-<img src="./img/rpc.png" alt = "Rock-Paper" style="height:450px"/>
+<img src="./img/rpc.png" alt = "Rock-Paper" style="height:500px"/>
 </p>
