@@ -5,6 +5,10 @@ using namespace std ;
 #endif
 
 // Contacts Class and Functions 
+
+// Contacts class has name and phone as string
+// file input (>>) & output (<<) operators are overloaded using friend function
+
 class Contacts{
 public :
     string name ;

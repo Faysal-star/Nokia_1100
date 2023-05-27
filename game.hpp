@@ -4,7 +4,12 @@
 using namespace std ;
 #endif
 
-// Game of Rock Paper Scissors
+// Game of Rock Paper Scissors Game
+// A Player base class(Abstract) with pure virtual function
+// Human and Computer are two derived class from Player
+// Human play() function let's user input move
+// Computer play() function randomly generate a move
+// playGame() function compares both move , decide winner & increment score
 
 class Player{
 public:
@@ -116,6 +121,7 @@ void RPCgame(){
 
 
 // Number guessing game (binary search)
+// This game try to find out your choosen number , using binary search method
 
 void guessGame(){
     system("cls") ;

@@ -6,6 +6,11 @@ using namespace std ;
 
 // ToDo Class and Functions
 
+// Date class is inherited from ToDo 
+// Every ToDo has , Task , Date , Status (Pending/Completed)
+// Data is stored in ToDo.txt file
+// input output operators (<< , >>) are overloaded to take input or show output
+
 class Date{
 public :
     int day ;

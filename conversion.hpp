@@ -4,7 +4,13 @@
 using namespace std ;
 #endif
 
-// Unit Conversions 
+// Unit Conversions
+// Length and Weight are to base class
+// Length => Inch , Meter , Feet
+// Weight => Kg , Lbs
+// convert() function takes a template T type argument
+// Then it dynamic_cast into base classes to determine the data type
+// Then it converts & show output according to it's data type
 
 class Length{
     public:

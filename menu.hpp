@@ -3,6 +3,9 @@
 #include<bits/stdc++.h>
 using namespace std ;
 #endif
+
+// All the menus and choice operations are done here
+
 // Main Menu 
 
 void menu(){
@@ -39,13 +42,11 @@ void contacts_operation(){
             cin.ignore() ;
         }
         else if(sub_choice == 2){
-            // delete
             delete_contact() ;
             cout << "\nEnter any key to continue...\n" ;
             cin.ignore() ;
         }
         else if(sub_choice == 3){
-            // print
             cout << "\n**** Contacts List ****\n" ; 
             Contacts *d = new Contacts() ;
             d->viewAll() ;
@@ -58,7 +59,6 @@ void contacts_operation(){
         else{
             cout << "Invalid choice\n" ;
         }
-        // cout << "Enter any key to continue : \n" ;
         cin.ignore() ;
     }while(sub_choice != 4) ;
 }
@@ -87,19 +87,16 @@ void toDoOperation(){
             cin.ignore() ;
         }
         else if(sub_choice == 2){
-            // delete
             delete_todo();
             cout << "Enter any key to continue...\n" ;
             cin.ignore() ;
         }
         else if(sub_choice == 3){
-            // update status
             update_todo() ;
             cout << "Enter any key to continue...\n" ;
             cin.ignore() ;
         }
         else if(sub_choice == 4){
-            // print
             ToDo *d = new ToDo() ;
             d->viewAll() ;
             cout << "Enter any key to continue...\n" ;
@@ -115,6 +112,7 @@ void toDoOperation(){
     }while(sub_choice != 5) ;
 }
 
+// Game Operation
 
 void gameOperation(){
     int sub_choice ;
