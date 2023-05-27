@@ -1,7 +1,6 @@
+# NOKIA_1100
 
-# NOKIA_1100
+This repository is for the 2<sup>nd</sup> year 1<sup>st</sup> term OOP Project.
 
-This repository is for the 2^nd^ year 1^st^ term OOP Project.
-
-* ******Run the main.cpp file******
-* All the necessary code blocks are split into multiple header files(.hpp)
+- <b><i>Run the main.cpp file</i></b>
+- **All the necessary code blocks are split into multiple header files(.hpp)**
