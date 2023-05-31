@@ -118,9 +118,21 @@ void conversion(){
     cout << "From which unit you want to convert : ";
     int ch;
     cin >> ch;
+
+    strt :
     cout << "Enter your measured data : ";
     double l;
     cin >> l;
+    
+    // Exception
+    try{
+        if(l <= 0) throw -1 ;
+    }
+    catch(int x){
+        cout << "\n* Please input a Natural Number * \n\n" ;
+        goto strt ;
+    }
+
     if(ch == 1) convert(new Inch(l));
     else if(ch == 2) convert(new Meter(l));
     else if(ch == 3) convert(new Feet(l));
